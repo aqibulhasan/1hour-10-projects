@@ -10,4 +10,4 @@ function autoWriteText() {
     document.body.innerHTML = "";
   }
 }
-let value = setInterval(autoWriteText, 100);
+ setInterval(autoWriteText, 100);
