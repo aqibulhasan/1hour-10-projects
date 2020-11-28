@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button.btn-1 {
+  font-size: 2em;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  background-color: rebeccapurple;
+  outline: none;
+  border: none;
+}
+.hidden {
+  display: none;
+}
+div.container {
+  margin: 0;
+  min-height: 100vh;
+  font-size: 50px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container div {
+  position: absolute;
+  color: black;
+  top: 35%;
+  right: 30%;
+  background-color: wheat;
+  width: 500px;
+  height: 200px;
+}
+.pop-up button {
+  position: absolute;
+  font-size: 0.8em;
+  background-color: wheat;
+  color: rebeccapurple;
+  top: 0;
+  right: 0;
+  outline: none;
+  border: none;
+}
+.container h3 {
+  position: absolute;
+  top: 30%;
+  right: 22%;
+}
+.block {
+  display: block;
+}

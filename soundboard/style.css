@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: wheat;
+}
+div {
+  max-width: 70%;
+  margin: 350px 0 0 280px;
+}
+button {
+  width: 150px;
+  margin: 0 1.5em;
+  padding: 0.8em;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: white;
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

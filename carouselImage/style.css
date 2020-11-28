@@ -1,0 +1,40 @@
+body {
+  background-color: wheat;
+}
+.container {
+  position: relative;
+  width: 60%;
+  margin: 5% auto 0;
+  border: 1px solid black;
+}
+img {
+  width: 100%;
+  height: 75vh;
+  display: block;
+  margin: auto;
+}
+button {
+  font-size: 2em;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+button#lt {
+  position: absolute;
+  top: 250px;
+  left: 0;
+}
+button#gt {
+  position: absolute;
+  top: 250px;
+  right: 0;
+}
+.container p {
+  position: absolute;
+  font-size: 2em;
+  font-weight: 400;
+  top: 0;
+  left: 0;
+  margin: 0;
+  color: white;
+}

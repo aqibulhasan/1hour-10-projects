@@ -1,0 +1,21 @@
+.bg {
+  background-color: #1f1f1f;
+}
+.toggle {
+  /* border: 1px solid red; */
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  outline: none;
+  background-color: goldenrod;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+div.container {
+  width: 50%;
+  margin: 15% auto 0;
+  color: rgba(0, 255, 85, 0.938);
+  text-align: center;
+}

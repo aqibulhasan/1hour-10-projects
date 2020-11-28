@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+.heart {
+  position: fixed;
+  top: -1vh;
+  transform: translateY(0);
+  animation: fall 3s ease-in forwards;
+  font-size: 1.5rem;
+}
+@keyframes fall {
+  to {
+    transform: translateY(105vh);
+  }
+}

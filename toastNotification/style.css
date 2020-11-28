@@ -1,0 +1,28 @@
+body {
+  background-color: aqua;
+  color: whitesmoke;
+}
+button {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  width: 200px;
+  padding: 0.6em;
+  border-radius: 20%;
+  background-color: goldenrod;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: whitesmoke;
+}
+div {
+  font-size: 1.5em;
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+}
+.notification {
+  background-color: rebeccapurple;
+  border-radius: 10%;
+  text-align: center;
+}
