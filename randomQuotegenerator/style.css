@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: wheat;
+}
+
+div {
+  position: relative;
+  width: 40%;
+  margin: 200px auto;
+  font-size: 1.5em;
+  background-color: aquamarine;
+  height: 50vh;
+  padding: 1.2em 1.1em;
+  text-align: center;
+}
+div button {
+  font-size: 1.1em;
+  padding: 0.2em 0.7em;
+  position: absolute;
+  bottom: 0;
+  right: 35px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+}
+@media (max-width: 986px) {
+  div {
+    width: 50%;
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 585px) {
+  div {
+    width: 100%;
+    font-size: 1.3em;
+  }
+}
